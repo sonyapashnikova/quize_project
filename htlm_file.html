@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="css_file.css">
+</head>
+<body>
+ <div class="quiz">
+     <h1>Викторина на эрудицию</h1>
+
+     <div id="start-screen" class="screen active">
+     <p>Ответьте на вопросы викторины!</p>
+     <button id="start-btn">Начать</button>
+     </div>
+
+     <div id="quiz-screen" class="screen">
+     <div id="progress-bar">
+     <div id="progress"></div>
+     </div>
+     <div id="question-container">
+     <h2 id="question-text"></h2>
+     <div id="answer-buttons" class="btn-grid">
+     </div>
+     </div>
+     <button id="next-question-btn">Следующий вопрос</button>
+     </div>
+
+     <div id="results-screen" class="screen">
+     <h2>Ваш результат:</h2>
+     <p id="score-text"></p>
+     <button id="restart-btn">Начать заново</button>
+     </div>
+     </div>
+
+ <script src="js_file.js"></script>
+</body>
+</html>
